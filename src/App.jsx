@@ -1,6 +1,6 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Layout from "./Compontents/Layout"; // Import your new layout
+import Layout from "./Compontents/Layout"; 
 import Home from "./Compontents/Home";
 import StudyMaterial from "./Compontents/StudyMaterial";
 import Results from "./Compontents/Results";

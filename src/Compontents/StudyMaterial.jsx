@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer';
 
 const studyMaterials = [
   { id: 1, title: 'HTML Basics', link: '/materials/html' },
@@ -21,6 +22,7 @@ const studyMaterials = [
 
 const StudyMaterial = () => {
   return (
+    <>
     <div className="p-6 text-center">
       <h1 className="text-2xl font-bold mb-4">Study Materials</h1>
       <ul className="space-y-2">
@@ -36,6 +38,8 @@ const StudyMaterial = () => {
         ))}
       </ul>
     </div>
+    <Footer/>
+    </>
   );
 };
 

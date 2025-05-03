@@ -5,6 +5,7 @@ import doc from '../assets/doc.png';
 import spo from '../assets/spo.png';
 import fes from '../assets/fes.png';
 import com from '../assets/com.png';
+import Footer from './Footer';
 
 
 
@@ -21,6 +22,7 @@ const universityImages = [
 
 const Gallery = () => {
   return (
+    <>
     <div className="p-6">
       <h1 className="text-2xl font-bold mb-6 text-center">University Gallery</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 gap-6">
@@ -38,6 +40,8 @@ const Gallery = () => {
         ))}
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 
