@@ -2,7 +2,7 @@ import React from 'react';
 
 const Section = () => {
   const data = [
-    { id: 1, headings: "QS World Ranking", hags: 801-850, word: "World University Ranking" },
+    { id: 1, headings: "QS World Ranking", hags: 801, word: "World University Ranking" },
     { id: 2, headings: "Nirf", hags: 17, word: "india University Ranking" },
     { id: 3, headings: "scopus", hags: 1097, word: "publication in 2023" },
     { id: 4, headings: "mou", hags: 79, word: "mou's singned" },

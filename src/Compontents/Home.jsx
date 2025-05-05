@@ -14,7 +14,7 @@ import lic from '../assets/lic.png';
 import degree from '../assets/degree.png';
 
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import Section from './Section'; // ✅ Import Section component
+import Section from './Section'; 
 import Footer from './Footer';
 
 export default function CarouselLib() {
